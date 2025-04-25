@@ -1,7 +1,7 @@
 $(document).ready(function() {
     const container = $('#pokemon-container');
 
-    // Fetch 10 random Pokémon (IDs from 1 to 151 for Gen 1)
+    // Fetch 10 random Pokémon IDs from 1 to 151 for Gen 1
     for (let i = 1; i <= 10; i++) {
         let randomId = Math.floor(Math.random() * 151) + 1;
 
